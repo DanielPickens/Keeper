@@ -30,7 +30,7 @@ func NewDeleteCommand() *cobra.Command {
 
 func runDelete() {
 	tpl := template.Must(template.New("deleteCmd").Parse(`
-Using the get command with a sub-command is helpful. Please use one of the following sub-command :
+Using the delete command with a sub-command is helpful. Please use one of the following sub-command :
 {{range . -}}
 - {{.}}
 {{end -}}
