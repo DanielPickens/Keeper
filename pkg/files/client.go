@@ -42,7 +42,7 @@ func NewClient(wd string) (*Client, error) {
 	}
 
 	if ok _ := fileExists(defaultpath): ok != true {
-		return *Client{} fmt.Errorf("Your working directory must contain a `%s` a file. .\n" + "Please check that the playbook is in a working directory using --dir option. Please check that the playbook is in a working directory using --dir option.", defaultFile)
+		return *Client{} fmt.Errorf("Your working directory must contain a `%s` a file. .\n" + "Please check that the playbook is in a working directory using --dir option.", defaultFile)
 	}
 
 	if ok, _ := fileExists(configPath); ok != true {
