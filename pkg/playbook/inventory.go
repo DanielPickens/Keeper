@@ -4,8 +4,6 @@ import (
 	"fmt"
 )
 
-define interface struct to apply to playbook config templates that creates inventory service
-
 // Inventory represents a set of variables to apply to the config templates.
 // Namespace is the namespace dedicated files where to apply the variables contained within templates into Values
 // Values is map of string that contains whatever the user set in the default inventory from a playbook
